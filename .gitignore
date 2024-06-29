@@ -1,6 +1,5 @@
 node_modules/
 public/
 .env
-.env.*
 .env.production
 .env.development
