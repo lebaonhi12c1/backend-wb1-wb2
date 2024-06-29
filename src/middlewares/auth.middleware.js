@@ -1,5 +1,5 @@
 import { expressjwt as jwt } from 'express-jwt';
-import ApiError from '../utils/api-error';
+import ApiError from '../utils/api-error.js';
 
 export const authMiddleware = () => {
     return [

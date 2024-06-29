@@ -1,4 +1,4 @@
-import './src/env/load-env';
+import './src/env/load-env.js';
 
 import express from 'express';
 import cors from 'cors';
@@ -9,12 +9,12 @@ import hpp from 'hpp';
 import mongoSanitize from 'express-mongo-sanitize';
 import compression from 'compression';
 import path from 'path';
-import { db } from './src/configs/database';
+import { db } from './src/configs/database/index.js';
 import {
     errorConverterMiddleware,
     errorHandlerMiddleware,
-} from './src/middlewares/error.middleware';
-import { routes } from './src/routes';
+} from './src/middlewares/error.middleware.js';
+import { routes } from './src/routes/index.js';
 
 import { fileURLToPath } from 'url';
 

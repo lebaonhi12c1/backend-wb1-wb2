@@ -1,6 +1,6 @@
 import { StatusCodes, getReasonPhrase } from 'http-status-codes';
 import mongoose from 'mongoose';
-import ApiError from '../utils/api-error';
+import ApiError from '../utils/api-error.js';
 
 export const errorConverterMiddleware = (err, req, res, next) => {
     let error = err;

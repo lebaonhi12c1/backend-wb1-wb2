@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { registryToken as baseRegistryToken } from '../../utils/token';
+import { registryToken as baseRegistryToken } from '../../utils/token.js';
 
 /**
  * hàm này được anh cover lại cho đúng ngữ nghĩa với nó, hàm này được dùng nội bộ trong đây

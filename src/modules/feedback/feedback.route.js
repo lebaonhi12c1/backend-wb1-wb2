@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import { authMiddleware } from '../../middlewares/auth.middleware';
+import { authMiddleware } from '../../middlewares/auth.middleware.js';
 import {
     createFeedback,
     getFeedback,
     getFeedbackDetail,
-} from './feedback.controller';
+} from './feedback.controller.js';
 
 const feedbackRoute = Router();
 

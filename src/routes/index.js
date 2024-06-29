@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { userRoute } from '../modules/user/user.route';
-import { authRoute } from '../modules/auth/auth.route';
-import { feedbackRoute } from '../modules/feedback/feedback.route';
+import { userRoute } from '../modules/user/user.route.js';
+import { authRoute } from '../modules/auth/auth.route.js';
+import { feedbackRoute } from '../modules/feedback/feedback.route.js';
 
 const routes = Router();
 

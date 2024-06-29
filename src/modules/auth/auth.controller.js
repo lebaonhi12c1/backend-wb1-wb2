@@ -1,8 +1,8 @@
-import { getUserByEmail } from './auth.service';
-import { generateToken } from '../token/token.controller';
-import { userModel } from '../../models/user.model';
-import catchAsync from '../../utils/catch-async';
-import { googleOAuth } from '../../utils/google-auth';
+import { getUserByEmail } from './auth.service.js';
+import { generateToken } from '../token/token.controller.js';
+import { userModel } from '../../models/user.model.js';
+import catchAsync from '../../utils/catch-async.js';
+import { googleOAuth } from '../../utils/google-auth.js';
 
 export const signinController = catchAsync(async (req, res, next) => {
     const { access_token } = req.body;

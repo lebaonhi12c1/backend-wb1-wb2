@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { feedbackModel } from '../../models/feedback';
-import catchAsync from '../../utils/catch-async';
+import { feedbackModel } from '../../models/feedback.js';
+import catchAsync from '../../utils/catch-async.js';
 
 const { ObjectId } = mongoose.Types;
 

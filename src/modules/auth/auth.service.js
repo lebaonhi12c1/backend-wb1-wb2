@@ -1,4 +1,4 @@
-import { userModel } from '../../models/user.model';
+import { userModel } from '../../models/user.model.js';
 
 /**
  * Hàm này là một static method được thêm trong userModel

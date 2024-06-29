@@ -43,6 +43,9 @@ const feedbackSchema = new Schema(
             type: Schema.Types.ObjectId,
             ref: 'users',
         },
+        productId: {
+            type: String,
+        },
     },
     {
         toJSON: {
